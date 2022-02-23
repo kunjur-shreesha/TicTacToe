@@ -82,6 +82,9 @@ public class MainActivity extends AppCompatActivity {
         ((ImageView)findViewById(R.id.imageView6)).setImageResource(0);
         ((ImageView)findViewById(R.id.imageView7)).setImageResource(0);
         ((ImageView)findViewById(R.id.imageView8)).setImageResource(0);
+        TextView status = findViewById(R.id.textStatus);
+        status.setText("Tap on Box to Play");
+
 
 
     }
